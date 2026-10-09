@@ -34,15 +34,16 @@
             càiĐặtToolStripMenuItem = new ToolStripMenuItem();
             thôngTinToolStripMenuItem = new ToolStripMenuItem();
             giớiThiệuToolStripMenuItem = new ToolStripMenuItem();
-            toolStrip1 = new ToolStrip();
             lờiGIớiThiệuToolStripMenuItem = new ToolStripMenuItem();
+            toolStrip1 = new ToolStrip();
+            exitToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { tàiKhoảnToolStripMenuItem, càiĐặtToolStripMenuItem, thôngTinToolStripMenuItem, giớiThiệuToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tàiKhoảnToolStripMenuItem, càiĐặtToolStripMenuItem, thôngTinToolStripMenuItem, giớiThiệuToolStripMenuItem, exitToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 28);
@@ -82,6 +83,12 @@
             giớiThiệuToolStripMenuItem.Text = "Giới Thiệu";
             giớiThiệuToolStripMenuItem.Click += giớiThiệuToolStripMenuItem_Click;
             // 
+            // lờiGIớiThiệuToolStripMenuItem
+            // 
+            lờiGIớiThiệuToolStripMenuItem.Name = "lờiGIớiThiệuToolStripMenuItem";
+            lờiGIớiThiệuToolStripMenuItem.Size = new Size(183, 26);
+            lờiGIớiThiệuToolStripMenuItem.Text = "Lời Giới Thiệu";
+            // 
             // toolStrip1
             // 
             toolStrip1.ImageScalingSize = new Size(20, 20);
@@ -91,11 +98,11 @@
             toolStrip1.TabIndex = 1;
             toolStrip1.Text = "toolStrip1";
             // 
-            // lờiGIớiThiệuToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            lờiGIớiThiệuToolStripMenuItem.Name = "lờiGIớiThiệuToolStripMenuItem";
-            lờiGIớiThiệuToolStripMenuItem.Size = new Size(224, 26);
-            lờiGIớiThiệuToolStripMenuItem.Text = "Lời Giới Thiệu";
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(47, 24);
+            exitToolStripMenuItem.Text = "Exit";
             // 
             // Form_Account
             // 
@@ -123,5 +130,6 @@
         private ToolStripMenuItem thôngTinToolStripMenuItem;
         private ToolStripMenuItem giớiThiệuToolStripMenuItem;
         private ToolStripMenuItem lờiGIớiThiệuToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem;
     }
 }
