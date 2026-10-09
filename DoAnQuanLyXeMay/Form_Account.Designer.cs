@@ -28,12 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form_Account";
+            menuStrip1 = new MenuStrip();
+            tàiKhoảnToolStripMenuItem = new ToolStripMenuItem();
+            thôngTinCáNhânToolStripMenuItem = new ToolStripMenuItem();
+            càiĐặtToolStripMenuItem = new ToolStripMenuItem();
+            thôngTinToolStripMenuItem = new ToolStripMenuItem();
+            giớiThiệuToolStripMenuItem = new ToolStripMenuItem();
+            toolStrip1 = new ToolStrip();
+            lờiGIớiThiệuToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tàiKhoảnToolStripMenuItem, càiĐặtToolStripMenuItem, thôngTinToolStripMenuItem, giớiThiệuToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.TabIndex = 0;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // tàiKhoảnToolStripMenuItem
+            // 
+            tàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thôngTinCáNhânToolStripMenuItem });
+            tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
+            tàiKhoảnToolStripMenuItem.Size = new Size(87, 24);
+            tàiKhoảnToolStripMenuItem.Text = "Tài Khoản";
+            // 
+            // thôngTinCáNhânToolStripMenuItem
+            // 
+            thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
+            thôngTinCáNhânToolStripMenuItem.Size = new Size(218, 26);
+            thôngTinCáNhânToolStripMenuItem.Text = "Thông Tin Cá Nhân";
+            // 
+            // càiĐặtToolStripMenuItem
+            // 
+            càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
+            càiĐặtToolStripMenuItem.Size = new Size(72, 24);
+            càiĐặtToolStripMenuItem.Text = "Cài Đặt";
+            // 
+            // thôngTinToolStripMenuItem
+            // 
+            thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
+            thôngTinToolStripMenuItem.Size = new Size(89, 24);
+            thôngTinToolStripMenuItem.Text = "Thông Tin";
+            // 
+            // giớiThiệuToolStripMenuItem
+            // 
+            giớiThiệuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lờiGIớiThiệuToolStripMenuItem });
+            giớiThiệuToolStripMenuItem.Name = "giớiThiệuToolStripMenuItem";
+            giớiThiệuToolStripMenuItem.Size = new Size(90, 24);
+            giớiThiệuToolStripMenuItem.Text = "Giới Thiệu";
+            giớiThiệuToolStripMenuItem.Click += giớiThiệuToolStripMenuItem_Click;
+            // 
+            // toolStrip1
+            // 
+            toolStrip1.ImageScalingSize = new Size(20, 20);
+            toolStrip1.Location = new Point(0, 28);
+            toolStrip1.Name = "toolStrip1";
+            toolStrip1.Size = new Size(800, 25);
+            toolStrip1.TabIndex = 1;
+            toolStrip1.Text = "toolStrip1";
+            // 
+            // lờiGIớiThiệuToolStripMenuItem
+            // 
+            lờiGIớiThiệuToolStripMenuItem.Name = "lờiGIớiThiệuToolStripMenuItem";
+            lờiGIớiThiệuToolStripMenuItem.Size = new Size(224, 26);
+            lờiGIớiThiệuToolStripMenuItem.Text = "Lời Giới Thiệu";
+            // 
+            // Form_Account
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(toolStrip1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
+            Name = "Form_Account";
+            Text = "Form_Account";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem tàiKhoảnToolStripMenuItem;
+        private ToolStripMenuItem thôngTinCáNhânToolStripMenuItem;
+        private ToolStripMenuItem càiĐặtToolStripMenuItem;
+        private ToolStrip toolStrip1;
+        private ToolStripMenuItem thôngTinToolStripMenuItem;
+        private ToolStripMenuItem giớiThiệuToolStripMenuItem;
+        private ToolStripMenuItem lờiGIớiThiệuToolStripMenuItem;
     }
 }

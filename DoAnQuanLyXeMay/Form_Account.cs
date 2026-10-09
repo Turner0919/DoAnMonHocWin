@@ -14,5 +14,10 @@ namespace DoAnQuanLyXeMay
         {
             InitializeComponent();
         }
+
+        private void giớiThiệuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
