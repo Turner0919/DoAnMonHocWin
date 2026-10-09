@@ -1,0 +1,20 @@
+## Build results / Biên dịch tạm thời
+[Bb]in/
+[Bb]ag/
+[Oo]bj/
+[Ll]og/
+
+## Visual Studio user-specific files / Cấu hình cá nhân
+.vs/
+*.user
+*.useros
+*.suo
+*.userprefs
+*.sln.docstates
+
+## Packages
+*.nupkg
+packages/
+
+## Test results
+[Tt]est[Rr]esult*/
