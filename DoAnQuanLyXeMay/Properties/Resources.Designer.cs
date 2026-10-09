@@ -63,6 +63,16 @@ namespace DoAnQuanLyXeMay.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ec7079eea49616539f86f943ce13975c {
+            get {
+                object obj = ResourceManager.GetObject("ec7079eea49616539f86f943ce13975c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_be3pi1be3pi1be3p {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_be3pi1be3pi1be3p", resourceCulture);
