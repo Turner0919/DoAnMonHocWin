@@ -165,6 +165,7 @@
             ClientSize = new Size(656, 340);
             Controls.Add(panel1);
             Name = "Form_DangKy";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng Ký Tài Khoản";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
