@@ -27,6 +27,7 @@ namespace DoAnQuanLyXeMay
 
         private void button3_Click(object sender, EventArgs e)
         {
+            
             // Lấy chuỗi nhập vào từ TextBox (thay txtLogin và txtPassword đúng theo Name trên Form của bạn)
             string user = txtLogin.Text;
             string pass = txtPassword.Text;
